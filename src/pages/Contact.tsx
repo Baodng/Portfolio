@@ -45,7 +45,7 @@ export default function Contact() {
         },
         "7T-u5ozlURCJNKo6z"
       )
-      .then((response) => {
+      .then(() => {
         alert("Email sent successfully!");
         form.reset();
       })
